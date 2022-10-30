@@ -16,7 +16,7 @@ class FakeEmployeeProvider implements EmployeeProviderInterface
         return $this->employee;
     }
 
-    public function setEmployee(Employee $employee)
+    public function setEmployee(Employee $employee): void
     {
         $this->employee = $employee;
     }
